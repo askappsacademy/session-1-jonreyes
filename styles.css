@@ -1,0 +1,60 @@
+html,body{
+  margin:0;
+  padding:0;
+  background-color: green;
+  height: 100%;
+  overflow: hidden;
+}
+h1{
+  background-color: black;
+  color:white;
+  position: fixed;
+  margin: 0;
+  z-index: 100;
+  text-shadow: 2px 2px gray;
+}
+div{
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#video{
+  background-image: url("https://i.vimeocdn.com/video/349464671_295x166.jpg?r=pad");
+  background-repeat: no-repeat;
+  margin: 5px;
+  height: 100%;
+  border-style: solid;
+}
+ol{
+  position: absolute;
+  float: right;
+  right: 0;
+  list-style: none;
+  margin: 0;
+  overflow-y: auto;
+  padding: 7px;
+  height: 100vh;
+  width: 542px;
+}
+li{
+  border-style: solid;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+}
+li > *{
+  padding: 5px;
+}
+li > img {
+  float: left;
+}
+li:hover {
+  border-color: white;
+}
+li > img:hover {
+  opacity: 0.5;
+}
+li > p:hover {
+  color: white;
+}
