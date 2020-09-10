@@ -20,6 +20,7 @@ div{
   display: flex;
 }
 #video{
+  background-color: blue;
   background-image: url("https://i.vimeocdn.com/video/349464671_295x166.jpg?r=pad");
   background-repeat: no-repeat;
   margin: 5px;
@@ -40,6 +41,7 @@ ol{
 li{
   border-style: solid;
   border-radius: 5px;
+  background-color: white;
   display: inline-block;
   width: 100%;
 }
@@ -50,11 +52,14 @@ li > img {
   float: left;
 }
 li:hover {
-  border-color: white;
+  border-color: gray;
 }
 li > img:hover {
   opacity: 0.5;
 }
 li > p:hover {
-  color: white;
+  color: gray;
+}
+.title {
+  font-weight: bold;
 }
